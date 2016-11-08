@@ -1,7 +1,6 @@
 var TelegramBot = require('node-telegram-bot-api');
 var token = 'YOUR TOKEN HERE'; //Token here
 var bot = new TelegramBot(token, {polling: true});
-var fs = require('fs');
 var spawn = require('child_process').spawn;
 
 //NSLookup
