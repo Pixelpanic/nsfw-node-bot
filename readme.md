@@ -1,20 +1,20 @@
 # **NS**lookup **F**or **W**ork bot
 
-A really simple nodeJS Telegram bot for NameServer lookup, sometimes we are just too lazy to open up the terminal.
+A simple nodeJS Telegram bot for NameServer lookup and ping. Why? Sometimes we are just too lazy to open up the terminal :)
 
-Penetration Test Passed by a brunnch of psycopath from Telegram group [@din_lo_it](https://telegram.me/din_lo_it) , come and hava chat with us!
+VA/PT Passed by a brunch of psychopath from Telegram group [@din_lo_it](https://telegram.me/din_lo_it) , come and hava a decent chat with us!
 
 author : [pixelpanic](@mysqli_real_escape_string)
 
-Live demo : Telegram @nsfw_node_bot (Running on Raspberry Pi 3 with nodeJS v6)
+Live demo : Telegram @nsfw_node_bot (built by nodeJS v6)
 
-This bot is using [this](@telegram-node-bot-api) API warpper.
+This bot is using telegram-node-bot-api as API warpper.
 
 ## Commands 
 
 * ```/nslookup (domain)``` relevants to shall command `nslookup (domain)`
 * ```/nslookupmx (domain)``` relevants to shall command `nslookup -type=mx (domain)`
-* ```/nslookupsoa (domain)``` relevants to shall command `nslookup -type=mx (domain)`
+* ```/nslookupsoa (domain)``` relevants to shall command `nslookup -type=soa (domain)`
 * ```/nslookuptxt (domain)``` relevants to shall command `nslookup -type=txt (domain)`
 * ```/nslookupall (domain)``` relevants to shall command `nslookup -type=soa -type=txt -type=mx (domain)`
 
